@@ -4,36 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <title>Krippendorff's Alpha Calculator</title>
-    <link rel="stylesheet" href="css/app.css">
+    <meta http-equiv="refresh" content="0; URL='/demo'" />
 </head>
 
 <body>
-    Please select a data type:<br />
-    <div class="data-type-selection">
-        <select name="data-type" id="dataType">
-            <option value="categorical" selected>Categorical</option>
-            <option value="ordinal">Ordinal</option>
-            <option value="interval">Interval</option>
-            <option value="ratio">Ratio</option>
-        </select>
-    </div>
-    <br /><br />
-    Then select csv data file: <br />
-    <input type="file" name="csv" id="csvInput" autofocus>
-    <br /><br />
-    Or enter a json string as data:<br />
-    <textarea name="json" id="jsonInput" rows="5" cols="50"></textarea>
-    <br /><br />
-
-    <button onclick="calculate()">Submit</button>
-
-    <br /> <br />
-    <a href="data/kirppendorff-demo.csv">Click here to download <b>Demo data</b></a><br/>
-    <a href="data/json-rating-data.json" target="_blank">Click here to get <b>Demo JSON data</b></a>
-    <br/><br/>
-    <div id="output"></div>
-    <script src="bundle.js"></script>
-
 </body>
 
 </html>
