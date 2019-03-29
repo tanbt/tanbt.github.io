@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["assets/img/favicon.png","8cd511ebd7730db84eab45071e4208af"],["assets/img/logo.png","6ce4c5cc67b0716d5ea3e401fc5ef16a"],["assets/img/manifest/icon-192x192.png","685370fe6daba99e4d3dfd5ed0345b3a"],["assets/img/manifest/icon-48x48.png","4d55fa1a178a2f65d0bbad8d6b25d08e"],["assets/img/manifest/icon-512x512.png","73293bc56073f18f99b994d4e511ec4b"],["assets/img/tan-bui.jpg","0b38d74bb67547b65eaa881880de9a6c"],["assets/img/user-image.jpg","435b9a837dd40072fe5d9bb93d21cfbc"],["index.html","b663511bc036e900bc79ebaa6093a812"],["manifest.json","72a88605a2b8bf2ec33b13decaa21318"],["src/phonebook-app.js","76302a2eb0c8dd7c5cce15d189935c77"]];
+var precacheConfig = [["assets/img/favicon.png","8cd511ebd7730db84eab45071e4208af"],["assets/img/logo.png","6ce4c5cc67b0716d5ea3e401fc5ef16a"],["assets/img/manifest/icon-192x192.png","685370fe6daba99e4d3dfd5ed0345b3a"],["assets/img/manifest/icon-48x48.png","4d55fa1a178a2f65d0bbad8d6b25d08e"],["assets/img/manifest/icon-512x512.png","73293bc56073f18f99b994d4e511ec4b"],["assets/img/tan-bui.jpg","0b38d74bb67547b65eaa881880de9a6c"],["assets/img/user-image.jpg","435b9a837dd40072fe5d9bb93d21cfbc"],["index.html","94933761b66b551c053eeb82c843128c"],["manifest.json","72a88605a2b8bf2ec33b13decaa21318"],["src/phonebook-app.js","ce0c4a5f0ca54c4fcac28be284c98cf3"]];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
 
 
